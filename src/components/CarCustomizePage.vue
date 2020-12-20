@@ -3,7 +3,9 @@
     <div class="grid container-full" v-else>
       <div class="decorative-background"></div>
       <section class="section-left">
-          <CarPreviewSection  :configurationData="configuration" />
+          <transition class="slide-in" name="slide-in" >
+            <CarPreviewSection :configurationData="configuration" />
+          </transition>
       </section>
       <section class="section-right">
           <neutralButton class="back-button" v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
@@ -34,7 +36,9 @@
               </div>
               <p>{{pickedRim.name}} - {{pickedRim.price == 0 ? `(Included)` : `(${pickedRim.price}$)`}}</p>
           </div>
-          <primaryButton v-on:click="toggleSummary" :label="`See your configuration`" :label2="`(${totalCost}$)`"/>
+          <transition class="fade-in" >
+            <primaryButton v-on:click="toggleSummary" :label="`See your configuration`" :label2="`(${totalCost}$)`"/>
+          </transition>
       </section>
     </div>
 </template>
@@ -170,4 +174,5 @@ export default {
     box-shadow: 0 10px 10px #c3c3c367;
   }
  }
+
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <template v-if="(selectedCar == null)">
-      <div class="container">        
+      <div class="container fade-in">        
         <ul class="tile-grid">
           <CarTile v-for="car in carsCatalog.cars" :key="car.model" :carData="car" @selected="selectCar" />
         </ul>
@@ -74,6 +74,6 @@ ul {
     grid-template-columns: repeat(1, 1fr);
   }
  }
- 
+
 </style>
  

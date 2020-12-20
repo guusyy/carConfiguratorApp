@@ -75,4 +75,55 @@ body {
 ul {
   list-style: none;
 }
+
+.slide-in {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+.fade-in {
+  animation-duration: 1s;
+  animation-name: fadein;
+}
+
+.fade-in-later {
+  animation-duration: 1s;
+  animation-name: fadeinlater;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate(150px, 0);
+    opacity: 0.3;
+  }
+
+  to {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinlater {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 </style>

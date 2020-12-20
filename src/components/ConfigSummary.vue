@@ -1,7 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="container">
-      <CarPreviewSection :configurationData="configurationData" />
+      <transition class="fade-in">
+        <CarPreviewSection :configurationData="configurationData" />
+      </transition>
       <section class="info-section">
         <neutralButton class="back-button" v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
         <h2>{{configurationData.brand}}</h2>
@@ -17,7 +19,9 @@
           <li>- Largest luggage space in its class</li>
           <li>- Unique and stadard with 7 years warranty</li>
         </ul>
-        <primaryButton class="place-order-button" :label="'Place order'" />
+        <transition class="fade-in-later" >
+          <primaryButton class="place-order-button" :label="'Place order'" />
+        </transition>
       </section>
     </div>
   </div>
