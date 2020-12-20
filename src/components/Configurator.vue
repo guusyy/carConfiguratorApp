@@ -1,8 +1,8 @@
 <template>
   <div>
-    <template v-if="selectedCar == null">
-      <div class="container tile-grid">        
-        <ul class="grid">
+    <template v-if="(selectedCar == null)">
+      <div class="container">        
+        <ul class="tile-grid">
           <CarTile v-for="car in carsCatalog.cars" :key="car.model" :carData="car" @selected="selectCar" />
         </ul>
       </div>
@@ -50,26 +50,30 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.grid {
+.tile-grid {
+  padding: 2em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 1em;
 }
 
-@media (max-width: 768px) { 
-  .grid {
+ul {
+  padding: 2em;
+  list-style: none;
+}
+
+@media (max-width: 1024px) { 
+  .tile-grid {
     grid-template-columns: repeat(2, 1fr);
   }
  }
 
-ul {
-  padding:0;
-  list-style: none;
-}
-
-.tile-grid {
-  padding: 2em 0;
-}
+@media (max-width: 768px) { 
+  .tile-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+ }
+ 
 </style>
  

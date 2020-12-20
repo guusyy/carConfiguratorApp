@@ -6,7 +6,7 @@
                 "model": "Trendline",
                 "img": "./assets/cars/white.png",
                 "year": 2019,
-                "price": 20000,
+                "price": 22500,
                 "colors": [
                     {
                         "name": "Clear White",
@@ -83,7 +83,7 @@
                 "model": "Comfortline",
                 "img": "./assets/cars/white.png",
                 "year": 2015,
-                "price": 10000,
+                "price": 12500,
                 "colors": [
                   {
                       "name": "Clear White",
@@ -160,7 +160,7 @@
               "model": "Highline",
               "img": "./assets/cars/white.png",
               "year": 2015,
-              "price": 10000,
+              "price": 16300,
               "colors": [
                 {
                     "name": "Clear White",
@@ -237,7 +237,7 @@
             "model": "Comfortline Business",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 17500,
             "colors": [
               {
                   "name": "Clear White",
@@ -314,7 +314,7 @@
             "model": "Highline Business R",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 22300,
             "colors": [
               {
                   "name": "Clear White",
@@ -391,7 +391,7 @@
             "model": "Businessline PHEV",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 32000,
             "colors": [
               {
                   "name": "Clear White",
@@ -468,7 +468,7 @@
             "model": "HEV",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 45000,
             "colors": [
               {
                   "name": "Clear White",
@@ -545,7 +545,7 @@
             "model": "Sportage",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 32000,
             "colors": [
               {
                   "name": "Clear White",
@@ -622,7 +622,7 @@
             "model": "XCeed",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 32000,
             "colors": [
               {
                   "name": "Clear White",
@@ -699,7 +699,7 @@
             "model": "XCeed PHEV",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 24000,
             "colors": [
               {
                   "name": "Clear White",
@@ -776,7 +776,7 @@
             "model": "Ceed Sport",
             "img": "./assets/cars/white.png",
             "year": 2015,
-            "price": 10000,
+            "price": 17500,
             "colors": [
               {
                   "name": "Clear White",

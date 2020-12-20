@@ -26,6 +26,7 @@ export default {
   .two-labels {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .primary-button {

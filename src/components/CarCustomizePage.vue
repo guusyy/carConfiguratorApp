@@ -1,5 +1,4 @@
 <template>
-  <div>
     <ConfigSummary v-if="showSummary" :configurationData="configuration" @goBack="toggleSummary" />
     <div class="grid container-full" v-else>
       <div class="decorative-background"></div>
@@ -7,7 +6,7 @@
           <CarPreviewSection  :configurationData="configuration" />
       </section>
       <section class="section-right">
-          <neutralButton v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
+          <neutralButton class="back-button" v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
           <h2>{{carData.brand}}</h2>
           <h1>{{carData.model}}</h1>
           <div class="config-group">
@@ -38,7 +37,6 @@
           <primaryButton v-on:click="toggleSummary" :label="`See your configuration`" :label2="`(${totalCost}$)`"/>
       </section>
     </div>
-  </div>
 </template>
 
 <script>
@@ -101,7 +99,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container-full {
-  width: 100vw;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
@@ -111,6 +109,7 @@ export default {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
 }
+
 .decorative-background {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -129,7 +128,7 @@ export default {
   grid-column-start: 9;
   grid-column-end: 13;
   grid-row-start: 1;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 .config-group {
@@ -140,4 +139,35 @@ export default {
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1024px) { 
+  .section-left {
+    grid-column-start: 1 ;
+    grid-column-end: 1 ;
+    grid-row-start: 1 ;
+  }
+
+  .section-right {
+    grid-column-start: 1 ;
+    grid-column-end: 1 ;
+    grid-row-start: 2 ;
+  }
+
+  .decorative-background{
+    grid-column-start: 1 ;
+    grid-column-end: 1 ;
+    grid-row-start: 1 ;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .back-button{
+    position: absolute;
+    top: 0px;
+    margin: 1.25em 0;
+    box-shadow: 0 10px 10px #c3c3c367;
+  }
+ }
 </style>
