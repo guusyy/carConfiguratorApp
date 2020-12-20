@@ -1,9 +1,7 @@
 <template>
     <div class="imagePreviewBox">
-      <!-- <transition name="fade"> -->
-        <img :src="configurationData.color.previewImg" alt="">
-        <img :src="configurationData.rim.rimPreviewImg" class="rimOverlay" alt="">
-      <!-- </transition> -->
+      <img :src="configurationData.color.previewImg" alt="">
+      <img :src="configurationData.rim.rimPreviewImg" class="rimOverlay" alt="">
     </div>
 </template>
 
@@ -24,13 +22,14 @@ export default {
 <style scoped>
 .imagePreviewBox {
   position: relative;
-  display: inline;
+  display: flex;
+  margin: auto 0;
 }
 
 .rimOverlay {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  top: 0;
+  left: 0;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;

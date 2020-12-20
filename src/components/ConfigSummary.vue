@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div class="container">
+      <CarPreviewSection :configurationData="configurationData" />
       <button v-on:click="onClickButton">Go back</button>
       <h2>{{configurationData.model}}</h2>
       <span style="text-decoration: underline">Estimated delivery time: 1-2 weeks</span>
@@ -11,7 +12,6 @@
       </ul>
       <h3>Total cost: {{configurationData.totalcost}}</h3>
       <button>Place order</button>
-      <CarPreviewSection :configurationData="configurationData" />
     </div>
 </template>
 

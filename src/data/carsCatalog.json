@@ -2,8 +2,8 @@
     "carsCatalog": {
         "cars": [
             {
-                "brand": "Kia",
-                "model": "Sorento",
+                "brand": "KIA Sorento",
+                "model": "Trendline",
                 "img": "./assets/cars/white.png",
                 "year": 2019,
                 "price": 20000,
@@ -79,8 +79,8 @@
                 ]
             },
             {
-                "brand": "Toyota",
-                "model": "Nero",
+                "brand": "KIA Sorento",
+                "model": "Comfortline",
                 "img": "./assets/cars/white.png",
                 "year": 2015,
                 "price": 10000,
@@ -154,7 +154,700 @@
                       "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
                   }
               ]
-            }
+            },
+            {
+              "brand": "KIA Sorento",
+              "model": "Highline",
+              "img": "./assets/cars/white.png",
+              "year": 2015,
+              "price": 10000,
+              "colors": [
+                {
+                    "name": "Clear White",
+                    "price": 0,
+                    "selectionImg": "./assets/colors/white.png",
+                    "previewImg": "./assets/cars/white.png" 
+                },
+                {
+                    "name": "Snow White Pearl",
+                    "price": 995,
+                    "selectionImg": "./assets/colors/snowWhite.png",
+                    "previewImg": "./assets/cars/pearl.png" 
+                },
+                {
+                    "name": "Aurora Black Pearl",
+                    "price": 995,
+                    "selectionImg": "./assets/colors/black.png",
+                    "previewImg": "./assets/cars/black.png" 
+                },
+                {
+                    "name": "Runway Red",
+                    "price": 995,
+                    "selectionImg": "./assets/colors/red.png",
+                    "previewImg": "./assets/cars/red.png" 
+                },
+                {
+                    "name": "Mineral Blue",
+                    "price": 1200,
+                    "selectionImg": "./assets/colors/blue.png",
+                    "previewImg": "./assets/cars/blue.png" 
+                }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "Comfortline Business",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "Highline Business R",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "Businessline PHEV",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "HEV",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "Sportage",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "XCeed",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "XCeed PHEV",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          },
+          {
+            "brand": "KIA Sorento",
+            "model": "Ceed Sport",
+            "img": "./assets/cars/white.png",
+            "year": 2015,
+            "price": 10000,
+            "colors": [
+              {
+                  "name": "Clear White",
+                  "price": 0,
+                  "selectionImg": "./assets/colors/white.png",
+                  "previewImg": "./assets/cars/white.png" 
+              },
+              {
+                  "name": "Snow White Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/snowWhite.png",
+                  "previewImg": "./assets/cars/pearl.png" 
+              },
+              {
+                  "name": "Aurora Black Pearl",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/black.png",
+                  "previewImg": "./assets/cars/black.png" 
+              },
+              {
+                  "name": "Runway Red",
+                  "price": 995,
+                  "selectionImg": "./assets/colors/red.png",
+                  "previewImg": "./assets/cars/red.png" 
+              },
+              {
+                  "name": "Mineral Blue",
+                  "price": 1200,
+                  "selectionImg": "./assets/colors/blue.png",
+                  "previewImg": "./assets/cars/blue.png" 
+              }
+            ],
+            "rims": [
+                {
+                    "name": "19'' Aero rims Metallic",
+                    "price": 0,
+                    "selectionImg": "./assets/rims/openMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openMetallic.png" 
+                },
+                {
+                    "name": "19'' Sportrims Metallic",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/fullMetallic.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedMetallic.png" 
+                },
+                {
+                    "name": "19'' Aero rims Black",
+                    "price": 900,
+                    "selectionImg": "./assets/rims/openBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openBlack.png" 
+                },
+                {
+                    "name": "19'' Sportrims Black",
+                    "price": 1800,
+                    "selectionImg": "./assets/rims/fullBlack.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedBlack.png" 
+                },
+                {
+                    "name": "19'' Aero rims Copper",
+                    "price": 1200,
+                    "selectionImg": "./assets/rims/openCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/openCopper.png" 
+                },
+                {
+                    "name": "19'' Sportrims Copper",
+                    "price": 2000,
+                    "selectionImg": "./assets/rims/fullCopper.png",
+                    "rimPreviewImg": "./assets/cars/rimOverlay/closedCopper.png" 
+                }
+            ]
+          }
         ]
     }
 }

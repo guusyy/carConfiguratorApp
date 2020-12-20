@@ -39,8 +39,8 @@ export default {
 
 .radio-btn {
   margin: 10px;
-  width: 100px;
-  height: 100px;
+  width: 5em;
+  height: 5em;
   border: 3px solid transparent;
   display: inline-block;
   border-radius: 12px;
@@ -48,6 +48,12 @@ export default {
   text-align: center;
   box-shadow: 0 0 20px #c3c3c367;
   cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.radio-btn:hover {
+  transform: scale(1.05);
 }
 
 .radio-btn img {
@@ -57,7 +63,7 @@ export default {
 
 .radio-btn > i {
   color: #ffffff;
-  background-color: #8373e6;
+  background-color: #3B82F6;
   font-size: 20px;
   position: absolute;
   top: -10px;
@@ -80,13 +86,13 @@ export default {
 }
 
 .radio-btn .radio-icon i {
-  color: #8373e6;
+  color: #3B82F6;
   line-height: 80px;
   font-size: 60px;
 }
 
 .radio-btn .radio-icon h3 {
-  color: #8373e6;
+  color: #3B82F6;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -94,7 +100,7 @@ export default {
 }
 
 .custom-radio input:checked + .radio-btn {
-  border: 3px solid #8373e6;
+  border: 3px solid #3B82F6;
 }
 
 .custom-radio input:checked + .radio-btn > i {

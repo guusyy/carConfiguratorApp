@@ -1,32 +1,42 @@
 <template>
-  <div class="container">
+  <div>
     <ConfigSummary v-if="showSummary" :configurationData="configuration" @goBack="toggleSummary" />
-    <div class="grid" v-else>
-      <CarPreviewSection class="sectionLeft" :configurationData="configuration" />
-      <div class="sectionRight">
-          <button v-on:click="onClickButton">Back</button>
-          <p>You selected <strong>{{carData.model}}</strong> </p>
-          <div class="radioButtonGroup">
-              <ConfigRadioButton 
-                  v-for="color in carData.colors" 
-                  v-bind:key="color.name" 
-                  v-on:click="updateColorConfig(color)" 
-                  :object="color" 
-                  :selected="color == pickedColor" />
+    <div class="grid container-full" v-else>
+      <div class="decorative-background"></div>
+      <section class="section-left">
+          <CarPreviewSection  :configurationData="configuration" />
+      </section>
+      <section class="section-right">
+          <neutralButton v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
+          <h2>{{carData.brand}}</h2>
+          <h1>{{carData.model}}</h1>
+          <div class="config-group">
+              <h4>Choose color:</h4>
+              <div class="radio-button-group">
+                  <ConfigRadioButton 
+                      v-for="color in carData.colors" 
+                      v-bind:key="color.name" 
+                      v-on:click="updateColorConfig(color)" 
+                      :object="color" 
+                      :selected="color == pickedColor" />
+              </div>
+              <p>{{pickedColor.name}} - {{pickedColor.price == 0 ? `(Included)` : `(${pickedColor.price}$)`}}</p>
           </div>
-          <p>{{pickedColor.name}} - {{pickedColor.price == 0 ? `(Included)` : `(${pickedColor.price}$)`}}</p>
-          <div class="radioButtonGroup">
-              <ConfigRadioButton 
-                  v-for="rim in carData.rims" 
-                  v-bind:key="rim.name" 
-                  v-on:click="updateRimConfig(rim)" 
-                  :object="rim" 
-                  :selected="rim == pickedRim" 
-                />
+          <div class="config-group">
+              <h4>Choose rim:</h4>
+              <div class="radio-button-group">
+                  <ConfigRadioButton 
+                      v-for="rim in carData.rims" 
+                      v-bind:key="rim.name" 
+                      v-on:click="updateRimConfig(rim)" 
+                      :object="rim" 
+                      :selected="rim == pickedRim" 
+                    />
+              </div>
+              <p>{{pickedRim.name}} - {{pickedRim.price == 0 ? `(Included)` : `(${pickedRim.price}$)`}}</p>
           </div>
-          <p>{{pickedRim.name}} - {{pickedRim.price == 0 ? `(Included)` : `(${pickedRim.price}$)`}}</p>
-          <button v-on:click="toggleSummary" >See configuration ({{totalCost}}$)</button>
-      </div>
+          <primaryButton v-on:click="toggleSummary" :label="`See your configuration`" :label2="`(${totalCost}$)`"/>
+      </section>
     </div>
   </div>
 </template>
@@ -35,13 +45,17 @@
 import ConfigSummary from './ConfigSummary.vue'
 import ConfigRadioButton from './ConfigRadioButton.vue'
 import CarPreviewSection from './CarPreviewSection.vue'
+import neutralButton from './neutralButton.vue'
+import primaryButton from './primaryButton.vue'
 
 export default {
   name: 'CarCustomizePage',
   components: {
       ConfigSummary,
       ConfigRadioButton,
-      CarPreviewSection
+      CarPreviewSection,
+      neutralButton,
+      primaryButton
   },
   props: {
       carData: Object
@@ -86,12 +100,44 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.radioButtonGroup {
+.container-full {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.decorative-background {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  background-color: #E5E7EB;
+}
+
+.section-left{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
   display: flex;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.section-right {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  padding: 2em;
+}
+
+.config-group {
+  margin: 2em 0;
+}
+
+.radio-button-group {
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>

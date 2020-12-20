@@ -14,12 +14,48 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: #1F2937;
+  transition: all 0.2s;
+}
+
+a {
+  color: #2563EB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 0 0 0.75em 0;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0.3em 0 0.3em 0;
+  font-size: 2.25em;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.333em;
+  font-weight: 300;
 }
 
 img {
@@ -35,5 +71,8 @@ img {
 body {
   margin: 0;
   padding: 0;
+}
+ul {
+  list-style: none;
 }
 </style>
