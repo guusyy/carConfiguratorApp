@@ -19,6 +19,7 @@
           <li>- Largest luggage space in its class</li>
           <li>- Unique and stadard with 7 years warranty</li>
         </ul>
+        <h3 class="total-cost">{{configurationData.totalcost}}$</h3>
         <transition class="fade-in-later" >
           <primaryButton class="place-order-button" :label="'Place order'" />
         </transition>
@@ -32,7 +33,7 @@ import CarPreviewSection from './CarPreviewSection.vue'
 import neutralButton from './neutralButton.vue'
 import primaryButton from './primaryButton.vue'
 
-export default {
+export default { 
   name: 'ConfigSummary',
   components: {
     CarPreviewSection,
@@ -53,6 +54,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+li {
+  margin-bottom: 0.75em;
+}
+
+.total-cost {
+  font-size: 2em;
+  margin: 2em 0;
+}
 .container-fluid{
   background-color:#F3F4F6;
 }
@@ -72,10 +81,6 @@ export default {
 .delivery-time-label {
   margin: 1em 0;
   display: block;
-}
-
-li {
-  margin-bottom: 0.75em;
 }
 
 .place-order-button {
