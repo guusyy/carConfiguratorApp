@@ -4,7 +4,6 @@
     <span class="radio-btn">
       <div class="radio-icon">
         <img :src="object.selectionImg" alt="">
-        <!-- <h3>{{object.name}}</h3> -->
       </div>
       <i class="las la-check"></i>
     </span>
@@ -12,19 +11,17 @@
 </template>
 
 <script>
-
 import 'line-awesome/dist/line-awesome/css/line-awesome.min.css';
 
 export default { 
   name: 'ConfigRadioButton',
   props: {
-      selected: Boolean,
-      object: Object
+    selected: Boolean,
+    object: Object
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 .radio-buttons {

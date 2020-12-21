@@ -1,20 +1,20 @@
 <template>
   <li class="car-tile">
     <a href="#car" v-on:click="onClickButton" >
+      <div>
         <div>
-            <div>
-                <img :src="carData.img" width="300" height="225" alt="">
-            </div>
-            <div>
-                <h2>{{carData.model}}</h2>
-                <h3>{{carData.brand}}</h3>
-                <div class="price-section">
-                  <span>From: </span>
-                  <span class="price">{{carData.price}}$</span>
-                </div>
-            </div>
+          <img :src="carData.img" width="300" height="225" alt="">
         </div>
-        <primaryButton :label="'Configure'" />
+        <div>
+          <h2>{{carData.model}}</h2>
+          <h3>{{carData.brand}}</h3>
+          <div class="price-section">
+            <span>From: </span>
+            <span class="price">{{carData.price}}$</span>
+          </div>
+        </div>
+      </div>
+      <primaryButton :label="'Configure'" />
     </a>
   </li>
 </template>
@@ -25,10 +25,10 @@ import primaryButton from './primaryButton.vue'
 export default {
   name: 'CarTile',
   components: {
-      primaryButton
+    primaryButton
   },
   props: {
-      carData: Object
+    carData: Object
   },
   methods: {
     onClickButton () {
@@ -38,7 +38,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 img {
   object-fit: contain;
@@ -58,6 +57,7 @@ a {
 h2 {
   font-weight: 600;
 }
+
 h3  {
   font-weight: 400;
 }
@@ -65,6 +65,7 @@ h3  {
 li:hover {
   transform: scale(1.05);
 }
+
 .car-tile {
   border-radius: 16px;
   border: 1px solid #F3F4F6;

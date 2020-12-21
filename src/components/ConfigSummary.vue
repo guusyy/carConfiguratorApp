@@ -53,7 +53,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 li {
   margin-bottom: 0.75em;
@@ -99,5 +98,5 @@ li {
     margin: 1.25em 0;
     box-shadow: 0 10px 10px #c3c3c367;
   }
- }
+}
 </style>
