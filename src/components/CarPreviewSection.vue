@@ -1,7 +1,8 @@
 <template>
   <div class="imagePreviewBox">
-    <img :src="configurationData.color.previewImg" alt="">
-    <img :src="configurationData.rim.rimPreviewImg" class="rimOverlay" alt="">
+    <img :src="configurationData.color.previewImg" :class="{ hide: future}" alt="">
+    <img :src="configurationData.rim.rimPreviewImg" :class="{ hide: future}" class="overlay" alt="">
+    <img :src="'./assets/cars/greatScott.png'" :class="{ hide: !future}" class="overlay" alt="">
   </div>
 </template>
 
@@ -10,7 +11,8 @@
 export default {
   name: 'CarPreviewSection',
   props: {
-    configurationData: Object
+    configurationData: Object,
+    future: Boolean
   },
 }
 </script>
@@ -22,9 +24,12 @@ export default {
   margin: auto 0;
 }
 
-.rimOverlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
+}
+.hide {
+  opacity: 0;
 }
 </style>

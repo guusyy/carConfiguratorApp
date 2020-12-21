@@ -8,7 +8,7 @@
       </transition>
     </section>
     <section class="section-right">
-      <neutralButton class="back-button" v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
+      <NeutralButton class="back-button" v-on:click="onClickButton" :label="'Go Back'" :icon="'la-arrow-left'" />
       <h2>{{carData.brand}}</h2>
       <h1>{{carData.model}}</h1>
       <div class="config-group">
@@ -37,7 +37,7 @@
         <p>{{pickedRim.name}} - {{pickedRim.price == 0 ? `(Included)` : `(${pickedRim.price}$)`}}</p>
       </div>
       <transition class="fade-in" >
-        <primaryButton v-on:click="toggleSummary" :label="`See your configuration`" :label2="`(${totalCost}$)`"/>
+        <PrimaryButton v-on:click="toggleSummary" :label="`See your configuration`" :label2="`(${totalCost}$)`"/>
       </transition>
     </section>
   </div>
@@ -47,8 +47,8 @@
 import ConfigSummary from './ConfigSummary.vue'
 import ConfigRadioButton from './ConfigRadioButton.vue'
 import CarPreviewSection from './CarPreviewSection.vue'
-import neutralButton from './neutralButton.vue'
-import primaryButton from './primaryButton.vue'
+import NeutralButton from './NeutralButton.vue'
+import PrimaryButton from './PrimaryButton.vue'
 
 export default {
   name: 'CarCustomizePage',
@@ -56,8 +56,8 @@ export default {
     ConfigSummary,
     ConfigRadioButton,
     CarPreviewSection,
-    neutralButton,
-    primaryButton
+    NeutralButton,
+    PrimaryButton
   },
   props: {
     carData: Object

@@ -8,7 +8,7 @@
 <script>
 
 export default { 
-  name: 'primaryButton',
+  name: 'PrimaryButton',
   props: {
     label: String,
     label2: String

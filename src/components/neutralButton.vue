@@ -10,7 +10,7 @@
 import 'line-awesome/dist/line-awesome/css/line-awesome.min.css';
 
 export default { 
-  name: 'neutralButton',
+  name: 'NeutralButton',
   props: {
     label: String,
     icon: String

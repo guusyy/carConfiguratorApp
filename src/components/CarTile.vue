@@ -14,18 +14,18 @@
           </div>
         </div>
       </div>
-      <primaryButton :label="'Configure'" />
+      <PrimaryButton :label="'Configure'" />
     </a>
   </li>
 </template>
 
 <script>
-import primaryButton from './primaryButton.vue'
+import PrimaryButton from './PrimaryButton.vue'
 
 export default {
   name: 'CarTile',
   components: {
-    primaryButton
+    PrimaryButton
   },
   props: {
     carData: Object
