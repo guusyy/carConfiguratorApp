@@ -76,7 +76,7 @@ li {
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 -10px 10px #c3c3c367;
-  padding: 2em;
+  padding: 1.5em;
 }
 .delivery-time-label {
   margin: 1em 0;

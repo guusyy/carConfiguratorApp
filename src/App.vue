@@ -60,6 +60,7 @@ h4 {
 
 img {
   max-width: 100%;
+  align-self: center;
 }
 
 * {
