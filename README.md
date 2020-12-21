@@ -1,6 +1,6 @@
 # KIA Sorento configurator UI🚗
 
-An front-end UI that lets you configure a KIA Sorento with demo data.
+A front-end UI that lets you configure a KIA Sorento with demo data.
 For now in the configuration part the user can choose colors and a rim.
 
 ## Project setup
