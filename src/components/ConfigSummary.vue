@@ -9,10 +9,11 @@
         <h2>{{configurationData.brand}}</h2>
         <h1>{{configurationData.model}}</h1>
         <span class="delivery-time-label" style="text-decoration: underline">Estimated delivery time: 1-2 weeks</span>
-        <ul>
-          <li>{{configurationData.rim.name}}</li>
-          <li>{{configurationData.color.name}}</li>
-          <li>{{configurationData.year}}</li>
+        <span class="model-cost-label">Base price: {{configurationData.price}}$</span>
+        <ul class="price-list">
+          <li>- Year of release: {{configurationData.year}}</li>
+          <li>- {{configurationData.rim.name}} <span style="font-weight: bold;"> {{configurationData.rim.price == 0 ? `(Included)` : `(${configurationData.rim.price}$)`}}</span></li>
+          <li>- {{configurationData.color.name}} <span style="font-weight: bold;"> {{configurationData.color.price == 0 ? `(Included)` : `(${configurationData.color.price}$)`}}</span></li>
         </ul>
         <ul>
           <li>- Completely new model</li>
@@ -56,6 +57,12 @@ export default {
 <style scoped>
 li {
   margin-bottom: 0.75em;
+}
+
+.model-cost-label {
+  font-size: 1.25em;
+  margin: 1em 0;
+  display: block;
 }
 
 .total-cost {
