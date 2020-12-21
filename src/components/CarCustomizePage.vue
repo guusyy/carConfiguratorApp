@@ -24,7 +24,7 @@
         <p>{{pickedColor.name}} - {{pickedColor.price == 0 ? `(Included)` : `(${pickedColor.price}$)`}}</p>
       </div>
       <div class="config-group">
-        <h4>Choose rim:</h4>
+        <h4>Choose rims:</h4>
         <div class="radio-button-group">
           <ConfigRadioButton 
             v-for="rim in carData.rims" 
