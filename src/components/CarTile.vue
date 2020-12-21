@@ -52,7 +52,6 @@ li {
 }
 
 a {
-  text-decoration: none;
   color: #1F2937;
 }
 

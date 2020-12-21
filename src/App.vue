@@ -16,11 +16,6 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,6 +26,7 @@ export default {
 
 a {
   color: #2563EB;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,6 +71,11 @@ body {
 }
 ul {
   list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .slide-in {

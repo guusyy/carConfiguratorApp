@@ -50,17 +50,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ul {
+  padding: 2em;
+}
+
 .tile-grid {
   padding: 2em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 1em;
-}
-
-ul {
-  padding: 2em;
-  list-style: none;
 }
 
 @media (max-width: 1024px) { 

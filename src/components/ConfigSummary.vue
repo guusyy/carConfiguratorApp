@@ -72,10 +72,6 @@ li {
 .container-fluid{
   background-color:#F3F4F6;
 }
-
-.container {
-  display: grid;
-}
 .info-section {
   border-radius:16px;
   bottom: 0;

@@ -1,5 +1,5 @@
 <template>
-  <button>
+  <button class="neutralButton">
     <i v-if="icon" :class="`las ${icon}`"></i>
     {{label}}
   </button>
@@ -24,7 +24,7 @@ export default {
     font-size: 1.25em;
   }
 
-  button {
+  .neutralButton {
     padding: 1em 1.25em;
     font-size: 1em;
     cursor: pointer;
@@ -37,7 +37,7 @@ export default {
     transition: all 0.1s ease 0.1s;
   }
 
-  button:hover {
+  .neutralButton:hover {
     background-color: #F3F4F6;
   }
 </style>
