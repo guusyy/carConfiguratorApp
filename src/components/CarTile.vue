@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import PrimaryButton from './PrimaryButton.vue'
+import PrimaryButton from './primaryButton.vue'
 
 export default {
   name: 'CarTile',

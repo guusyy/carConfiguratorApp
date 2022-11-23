@@ -32,8 +32,8 @@
 
 <script>
 import CarPreviewSection from './CarPreviewSection.vue'
-import NeutralButton from './NeutralButton.vue'
-import PrimaryButton from './PrimaryButton.vue'
+import NeutralButton from './neutralButton.vue'
+import PrimaryButton from './primaryButton.vue'
 import CheckboxButton from './CheckboxButton.vue'
 
 export default { 

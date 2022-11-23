@@ -47,8 +47,8 @@
 import ConfigSummary from './ConfigSummary.vue'
 import ConfigRadioButton from './ConfigRadioButton.vue'
 import CarPreviewSection from './CarPreviewSection.vue'
-import NeutralButton from './NeutralButton.vue'
-import PrimaryButton from './PrimaryButton.vue'
+import NeutralButton from './neutralButton.vue'
+import PrimaryButton from './primaryButton.vue'
 
 export default {
   name: 'CarCustomizePage',
